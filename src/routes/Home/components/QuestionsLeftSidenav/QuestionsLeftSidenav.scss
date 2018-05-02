@@ -1,0 +1,19 @@
+.left-sidenav{
+  background-color: #fff;
+  flex: 1;
+  border-right: 1px solid rgba(0, 0, 0, 0.12);
+  height: 100%;
+  overflow: auto;
+}
+
+.left-sidenav-container{
+  -webkit-animation:slide-in-left .5s cubic-bezier(.25,.46,.45,.94) both;animation:slide-in-left .5s cubic-bezier(.25,.46,.45,.94) both
+}
+
+@media only screen and (max-width: 600px) {
+  .left-sidenav-container {
+    display:none !important;
+  }
+}
+
+@-webkit-keyframes slide-in-left{0%{-webkit-transform:translateX(-1000px);transform:translateX(-1000px);opacity:0}100%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}}@keyframes slide-in-left{0%{-webkit-transform:translateX(-1000px);transform:translateX(-1000px);opacity:0}100%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}}

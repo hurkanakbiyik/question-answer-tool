@@ -1,0 +1,44 @@
+.content{
+  border-right: 1px solid rgba(0, 0, 0, 0.12);
+  padding: 18px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-wrap: wrap;
+  .question-area{
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    .question-answer{
+      padding: 0px 8px;
+      label{
+        font-size: 20px;
+        line-height: 1.3;
+        font-weight: 500;
+      }
+      p.visible{
+        font-size: 16px;
+        line-height: 1.7;
+        display: block;
+      }
+      p{
+        display: none;
+      }
+    }
+  }
+
+  .not-found{
+    flex-direction: column;
+    display: flex;
+    align-items : center;
+    justify-content: center;
+    padding: 36px 18px;
+    background-color: #ef5350;
+    .not-found-info{
+      flex : 3;
+    }
+    p{
+      color: #fff;
+    }
+  }
+}
