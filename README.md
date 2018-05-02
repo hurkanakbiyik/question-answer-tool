@@ -35,3 +35,7 @@ While developing, you will probably rely mostly on `yarn start`; however, there 
 |`test:watch`       |Runs `test` in watch mode to re-run tests when changed|
 |`lint`             |[Lints](http://stackoverflow.com/questions/8503559/what-is-linting) the project for potential errors|
 |`lint:fix`         |Lints the project and [fixes all correctable errors](http://eslint.org/docs/user-guide/command-line-interface.html#fix)|
+
+![alt text](https://github.com/hurkanakbiyik/question-answer-tool/blob/master/qa1.PNG)
+![alt text](https://github.com/hurkanakbiyik/question-answer-tool/blob/master/qa2.PNG)
+
